@@ -56,7 +56,7 @@ This document outlines the process followed to develop my personal CV using the 
       - **Event Organizers and Conference Planners**: Organizers looking to invite industry experts to speak or present at events might use the portfolio as a source of reference.
   
     - *Functional Requirements*:
-      - **1. Home page**: Display a professional introduction (name, job title, summary)
+      - **1. Hero Section**: Display a professional introduction (name, job title, summary)
       - **2. About Section**:Provide a detailed background  information: experience, and skill.
       - **3. Skills Section**: List key technical skills with visual indicators and sort them by category.
       - **4. Projects Section**: Showcase individual projects with details (title, description, technology stack, image/screenshot/video demo, link)
@@ -86,11 +86,11 @@ This document outlines the process followed to develop my personal CV using the 
      - *Code font*: Source code pro for any code snippet. 
 
    - **Color palette**:
-     - *Primary Color*: Deep Blue (#003366) – Represents professionalism, trust, and reliability.
-     - *Accent Color*: Vibrant Orange (#FF6B35) – Adds energy and attention to important elements like buttons and links.
-     - *Neutral Background*: Light Gray (#F5F5F5) or White (#FFFFFF) – Ensures content readability and provides a clean look.
-     - *Text Color*: Dark Gray (#333333) – Soft on the eyes and balances well against a light background.
-     - *Secondary Accent*: Light Blue (#A6C8FF) – Used for subtle highlights, borders, or section backgrounds.
+     - *Primary Color*: Deep Blue (#003366)->dark(Lighter Navy: #1A2D48) – Represents professionalism, trust, and reliability.
+     - *Accent Color*: Vibrant Orange (#FF6B35)->dark(Burnt Orange: #FF8F66) – Adds energy and attention to important elements like buttons and links.
+     - *Neutral Background*: Light Gray (#F5F5F5) or White (#FFFFFF)->dark(Dark Slate: #121212) – Ensures content readability and provides a clean look.
+     - *Text Color*: Dark Gray (#333333)->dark(Soft Light Gray: #E0E0E0) – Soft on the eyes and balances well against a light background.
+     - *Secondary Accent*: Light Blue (#A6C8FF)->dark(Muted Blue: #5A8CC6) – Used for subtle highlights, borders, or section backgrounds.
 
    - **Section Organization and Information Hierarchy**:
      - *1. Hero Section*:
