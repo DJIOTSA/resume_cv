@@ -39,7 +39,7 @@ This document outlines the process followed to develop my personal CV using the 
 
 
 ### 1. Requirement Gathering and Analysis
-  - **General Objective**: Build a curriculum vitae that effectively showcases my relevant skills, experience, and achievements to potential employers.
+  - **General Objective**: Build a curriculum vitae that effectively showcases the relevant skills, experience, and achievements to potential employers.
   
   - **Specifics objectives**:
     - *Role interested(software engineer)*: 
@@ -77,3 +77,52 @@ This document outlines the process followed to develop my personal CV using the 
       - **4. Reliability and Availability**: Ensure a high availability of the website (99.9% uptime) to provide consistent access to users. Backup and restore mechanisms should be in place to avoid data loss.
       - **5. Maintainability**: Code should be modular, well-documented, and easy to update.
       - **6. Accessibility**: Ensure proper color contrast, keyboard navigation, alt tags for images.
+
+
+### 2. System Design
+   - **Fonts**:
+     - *Primary*: Montserrat for readability.
+     - *Secondary*: Poppins for headings or highlighted text.
+     - *Code font*: Source code pro for any code snippet. 
+
+   - **Color palette**:
+     - *Primary Color*: Deep Blue (#003366) – Represents professionalism, trust, and reliability.
+     - *Accent Color*: Vibrant Orange (#FF6B35) – Adds energy and attention to important elements like buttons and links.
+     - *Neutral Background*: Light Gray (#F5F5F5) or White (#FFFFFF) – Ensures content readability and provides a clean look.
+     - *Text Color*: Dark Gray (#333333) – Soft on the eyes and balances well against a light background.
+     - *Secondary Accent*: Light Blue (#A6C8FF) – Used for subtle highlights, borders, or section backgrounds.
+
+   - **Section Organization and Information Hierarchy**:
+     - *1. Hero Section*:
+       - ***content***: Display the engineer’s name, job title, a brief intro, and a call-to-action button (e.g., "View My Work").
+       - ***Design***: Use large, centered text with an eye-catching background or professional photo. Add a subtle animation or scrolling cue for engagement.
+
+     - *2. About Section*:
+       - ***Content***: Overview of the engineer’s background, skills, and experience. Include a downloadable resume button.
+       - ***Design***: Arrange in a split layout with a brief bio on one side and a visual or skills summary on the other.
+       - ***Hierarchy***: Start with a heading like “About Me” followed by short, digestible paragraphs and skill icons or bars.
+
+     - *3. Projects Sections*:
+       - ***Content***: Showcase projects with thumbnails, titles, descriptions, and tech stacks. Include links to demos and GitHub repos.
+       - ***Design***: Use a grid layout with a hover effect to reveal more details. Categorize or filter by type or tech stack for easy navigation.
+       - ***Hierarchy***: Highlight featured projects at the top. Use consistent visual indicators (like icons or tags) for tech stacks. 
+
+     - *4. Skills Section*:
+       - ***Content***: Display core technical skills with proficiencies (e.g., frontend, backend, tools).
+       - ***Design***: Visual elements like bars, circles, or icons to convey skill levels. Use color contrasts for easy readability.
+       - ***Hierarchy***: Group skills by categories (Frontend, Backend, Tools) with subheadings for clarity.
+  
+     - *5. Contact section*:
+       - ***Content***: Contact form (name, email, message) with social media links.
+       - ***Design***: Include a minimal form with labels and a submit button. Place social icons for LinkedIn, GitHub, and Twitter underneath.
+       - ***Hierarchy***: Title the section “Let’s Connect” or “Get in Touch” to make it welcoming and accessible.
+     - *6. Footer section*:
+       - ***Content**: Include essential links (e.g., home, about, portfolio), social media icons, and a copyright notice.
+       - ***Design***: Keep the footer simple, using the primary and neutral colors to separate it visually from the main content.
+       - ***Hierarchy***: Socials links should be clearly visible, with copyright text at the bottom.
+
+   - **Information Hierarchy and Visual appeal**:
+     - ***Use visual hierarchy***: Employ different font sizes and weights to guide the  user's eye from header to content. Header should stand out, while the main body text remains clean.
+     - ***Whitespace and Padding***: Ensure ample spacing between section and around elements to avoid clutter. This make the design fell airy and inviting.
+     - ***Consistence Styling***: Maintain consistence colors, font sizes, button style across the site to create a cohesive experience.
+     - ***Interactive elements***: Add subtle hover effects for buttons, links, and project thumbnails to make the site feel interactive without overwhelming the user.
