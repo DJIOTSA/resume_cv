@@ -1,0 +1,33 @@
+// light theme
+.light {
+
+    // navbar
+    nav {
+        background-color: $default-background;
+        color: $default-highlight;
+    }
+
+    // hero
+    .hero{
+        .btn__hero {
+            border-color: rgba($default-highlight, 0.6);
+            background-color: $default-highlight;
+            color: $default-text;
+    
+            &:hover {
+                background-color: $default-background;
+                color: $default-highlight;
+            }
+        }
+    
+    }
+    // about
+    .about{
+        
+        h2{
+            color: $default-highlight;
+        }
+    }
+
+
+}

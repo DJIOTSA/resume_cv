@@ -1,0 +1,11 @@
+// @use "../abstracts/mixins";
+.btn-rounded {
+    border: 0.1rem solid;
+    position: relative;
+    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    @include media-breakpoint-down(sm){
+        padding: 0.8375rem 1.25rem 0.8375rem 1rem;
+    }
+}

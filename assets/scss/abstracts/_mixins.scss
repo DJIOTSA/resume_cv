@@ -1,0 +1,119 @@
+// font weight normal
+@mixin thin {
+  font-weight: 100;
+  font-style: normal;
+}
+
+@mixin extralight {
+  font-weight: 200;
+  font-style: normal;
+}
+
+@mixin light {
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin medium {
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin semibold {
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin extrabold {
+  font-weight: 800;
+  font-style: normal;
+}
+
+@mixin black {
+  font-weight: 900;
+  font-style: normal;
+}
+
+// font weight italic
+@mixin thin-italic {
+  font-weight: 100;
+  font-style: italic;
+}
+
+@mixin extralight-italic {
+  font-weight: 200;
+  font-style: italic;
+}
+
+@mixin light-italic {
+  font-weight: 300;
+  font-style: italic;
+}
+
+@mixin regular-italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+@mixin medium-italic {
+  font-weight: 500;
+  font-style: italic;
+}
+
+@mixin semibold-italic {
+  font-weight: 600;
+  font-style: italic;
+}
+
+@mixin bold-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+
+@mixin extrabold-italic {
+  font-weight: 800;
+  font-style: italic;
+}
+
+@mixin black-italic {
+  font-weight: 900;
+  font-style: italic;
+}
+
+// GRADIEN MIXIN
+@mixin gradient {
+  background: linear-gradient(to right, rgba($white, 0.95), rgba($background-color, 0.95));
+}
+
+// absolute center
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+// transition property
+@mixin transitionProperty {
+  transition-duration: 1000ms;
+  transition-property: all;
+}
+
+// section separator
+@mixin section-separator{
+  margin-top: 5.7rem;
+  @include media-breakpoint-up(lg){
+    margin-top: 8rem;
+  }
+}

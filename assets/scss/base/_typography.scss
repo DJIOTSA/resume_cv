@@ -1,0 +1,294 @@
+
+// poppins fonts
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  @include thin;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  @include extralight;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  @include light;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  @include regular;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  @include medium;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  @include semibold;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  @include bold;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  @include extrabold;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  @include black;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  @include thin-italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  @include extralight-italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  @include light-italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  @include regular-italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  @include medium;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  @include semibold-italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  @include bold-italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  @include extrabold-italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  @include black-italic;
+}
+
+//  Montserrat fonts 
+.montserrat-thin {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include thin;
+}
+
+.montserrat-extralight {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include extralight;
+}
+
+.montserrat-light {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include light;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include regular;
+}
+
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include medium;
+}
+
+.montserrat-semibold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include semibold;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include bold;
+}
+
+.montserrat-extrabold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include extrabold;
+}
+
+.montserrat-black {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include black;
+}
+
+.montserrat-thin-italic {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include thin-italic;
+}
+
+.montserrat-extralight-italic {
+  font-family: "Montserrat", sans-serif;
+  @include extralight-italic;
+}
+
+.montserrat-light-italic {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include light-italic;
+}
+
+.montserrat-regular-italic {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include regular-italic;
+}
+
+.montserrat-medium-italic {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include medium;
+}
+
+.montserrat-semibold-italic {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include semibold-italic;
+}
+
+.montserrat-bold-italic {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include bold-italic;
+}
+
+.montserrat-extrabold-italic {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include extrabold-italic;
+}
+
+.montserrat-black-italic {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  @include black-italic;
+}
+
+//  SourceCodePro fonts 
+.source-code-pro-thin {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  @include thin;
+}
+
+.source-code-pro-extralight {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  @include extralight;
+}
+
+.source-code-pro-light {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  @include light;
+}
+
+.source-code-pro-regular {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  @include regular;
+}
+
+.source-code-pro-medium {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  @include medium;
+}
+
+.source-code-pro-semibold {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  @include semibold;
+}
+
+.source-code-pro-bold {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  @include bold;
+}
+
+.source-code-pro-extrabold {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  @include extrabold;
+}
+
+.source-code-pro-black {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  @include black;
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Poppins", sans-serif;
+}
+
+p,li,a,button{
+  font-family: "Montserrat", sans-serif;
+}
+
+h1{
+  @include media-breakpoint-up(xs){
+    font-size: 1.5rem !important;
+  }
+  @include media-breakpoint-up(sm){
+    font-size: 2.3rem !important;
+  }
+  @include media-breakpoint-up(md){
+    font-size: 3rem !important;
+  }
+  @include media-breakpoint-up(lg){
+    font-size: 4.5rem !important;
+  }
+}
+
+
+p{
+  @include media-breakpoint-up(xs){
+    font-size: .8rem !important;
+  }
+  @include media-breakpoint-up(sm){
+    font-size: 1.2rem !important;
+  }
+  @include media-breakpoint-up(md){
+    font-size: 1.5rem !important;
+  }
+}
