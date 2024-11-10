@@ -111,9 +111,22 @@
 }
 
 // section separator
-@mixin section-separator{
+@mixin section-separator {
   margin-top: 5.7rem;
-  @include media-breakpoint-up(lg){
+
+  @include media-breakpoint-up(lg) {
     margin-top: 9rem;
   }
+}
+
+// Define a mixin for customizable box-shadow color
+@mixin box-shadow($shadow-color: black) {
+  box-shadow: 0.25rem 0.25rem 0.5rem $shadow-color !important;
+}
+
+// border-bottom
+@mixin border-bottom($border-color: black) {
+  border-bottom: 1px solid $border-color;
+  margin-top: .7rem;
+  margin-bottom: .7rem;
 }

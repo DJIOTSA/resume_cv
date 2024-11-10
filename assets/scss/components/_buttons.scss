@@ -5,8 +5,76 @@
     padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
     font-weight: 700;
     margin: 0;
-    @include media-breakpoint-down(sm){
+
+    @include media-breakpoint-down(sm) {
         padding: 0.8375rem 1.25rem 0.8375rem 1rem;
     }
-}
 
+    &-default-light {
+        border-color: rgba($default-highlight, 0.6);
+        background-color: $default-highlight;
+        color: $secondary-color;
+
+        &:hover {
+            background-color: $default-background;
+            color: $default-highlight;
+        }
+
+        &:focus {
+            outline: none; // removes default outline
+            border-color: rgba($default-highlight, 0.8); // a more prominent focus border
+            box-shadow: 0 0 0 3px rgba($default-highlight, 0.3); // adds a subtle shadow
+        }
+    }
+
+    &-default-dark {
+        border-color: rgba($default-highlight, 0.6);
+        background-color: $default-highlight;
+        color: $secondary-color;
+
+        &:hover {
+            background-color: $default-background;
+            color: $dark-default-highlight;
+        }
+
+        &:focus {
+            outline: none; // removes default outline
+            border-color: rgba($dark-default-highlight, 0.8); // a more prominent focus border
+            box-shadow: 0 0 0 3px rgba($dark-default-highlight, 0.3); // adds a subtle shadow
+        }
+    }
+
+    &-secondary-light {
+        border-color: rgba($default-background, 0.6);
+        background-color: $default-background;
+        color: $default-highlight;
+
+        &:hover {
+            background-color: $default-highlight;
+            color: $default-background;
+        }
+
+        &:focus {
+            outline: none; // removes default outline
+            border-color: rgba($default-background, 0.8); // a more prominent focus border
+            box-shadow: 0 0 0 3px rgba($default-background, 0.3); // adds a subtle shadow
+        }
+    }
+
+    &-secondary-dark {
+        border-color: rgba($dark-default-background, 0.6);
+        background-color: $dark-default-background;
+        color: $default-highlight;
+
+        &:hover {
+            background-color: $default-highlight;
+            color: $dark-default-background;
+        }
+
+        &:focus {
+            outline: none; // removes default outline
+            border-color: rgba($dark-default-background, 0.8); // a more prominent focus border
+            box-shadow: 0 0 0 3px rgba($dark-default-background, 0.3); // adds a subtle shadow
+        }
+    }
+}

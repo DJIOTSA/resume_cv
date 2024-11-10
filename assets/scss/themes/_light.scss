@@ -19,23 +19,6 @@
             color: $default-text;
         }
 
-        .btn__hero {
-            border-color: rgba($default-highlight, 0.6);
-            background-color: $default-highlight;
-            color: $secondary-color;
-
-            &:hover {
-                background-color: $default-background;
-                color: $default-highlight;
-            }
-
-            &:focus {
-                outline: none; // removes default outline
-                border-color: rgba($default-highlight, 0.8); // a more prominent focus border
-                box-shadow: 0 0 0 3px rgba($default-highlight, 0.3); // adds a subtle shadow
-            }
-        }
-
     }
 
     // about
@@ -54,14 +37,15 @@
         h3 {
             color: $secondary-color;
         }
-        .about__title{
-            p{
-                color:$secondary-color;
+
+        .about__title {
+            p {
+                color: $secondary-color;
             }
         }
 
-        .about__description{
-            p{
+        .about__description {
+            p {
                 color: $default-background;
             }
         }
@@ -80,22 +64,22 @@
             }
         }
 
-        .btn__about {
-            border-color: rgba($default-background, 0.6);
-            background-color: $default-background;
-            color: $default-highlight;
+        // .btn__about {
+        //     border-color: rgba($default-background, 0.6);
+        //     background-color: $default-background;
+        //     color: $default-highlight;
 
-            &:hover {
-                background-color: $default-highlight;
-                color: $default-background;
-            }
+        //     &:hover {
+        //         background-color: $default-highlight;
+        //         color: $default-background;
+        //     }
 
-            &:focus {
-                outline: none; // removes default outline
-                border-color: rgba($default-background, 0.8); // a more prominent focus border
-                box-shadow: 0 0 0 3px rgba($default-background, 0.3); // adds a subtle shadow
-            }
-        }
+        //     &:focus {
+        //         outline: none; // removes default outline
+        //         border-color: rgba($default-background, 0.8); // a more prominent focus border
+        //         box-shadow: 0 0 0 3px rgba($default-background, 0.3); // adds a subtle shadow
+        //     }
+        // }
 
     }
 
@@ -109,5 +93,30 @@
         }
     }
 
+    // projects
+    .projects {
+        .card {
+            .card__content{
+                .btn__project-card {
+                    border-color: rgba($default-highlight, 0.6);
+                    background-color: $default-highlight;
+                    color: $secondary-color;
+    
+                    &:hover {
+                        background-color: $default-background;
+                        color: $default-highlight;
+                    }
+    
+                    &:focus {
+                        outline: none; // removes default outline
+                        border-color: rgba($default-highlight, 0.8); // a more prominent focus border
+                        box-shadow: 0 0 0 3px rgba($default-highlight, 0.3); // adds a subtle shadow
+                    }
+                }
+            }
+        }
+
+
+    }
 
 }

@@ -14,6 +14,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
     rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
   <!-- <link rel="stylesheet" href="./assets/fonts/Montserrat-Bold.ttf">
   <link rel="stylesheet" href="./assets/fonts/Montserrat-Regular.ttf">
   <link rel="stylesheet" href="./assets/fonts/Poppins-Bold.ttf">
@@ -124,11 +126,12 @@
     <div class="justify-content-center container pt-3">
       <div class="text-center">
         <h1 class="poppins-black mb-3">Hello, I'm Djiotsa Djouake Christian Daryn a Software Engineer</h1>
-        <p class="px-md-5 px-lg-5 montserrat-medium mb-3">I'm driven to build full-stack web applications that don’t just function but
+        <p class="px-md-5 px-lg-5 montserrat-medium mb-3">I'm driven to build full-stack web applications that don’t
+          just function but
           truly captivate, attracting users, boosting engagement, and driving measurable growth for your business.</p>
         <!-- get in touch -->
         <p class="mt-3 pt-3">
-          <a href="mailto:mhulodjiotsa@gmail.com" class="rounded-pill btn-rounded btn__hero ">
+          <a href="mailto:mhulodjiotsa@gmail.com" class="rounded-pill btn-rounded btn-rounded-default-light ">
             Get In touch <i class="fas fa-arrow-circle-right"></i>
           </a>
         </p>
@@ -141,14 +144,15 @@
     <div class="container pt-5">
       <!-- about section title -->
       <div class="about__title text-center">
-        <h2 class="poppins-bold">About me</h2>
+        <h2 class="poppins-bold h1">About me</h2>
         <div class="heading-line "></div>
         <p class="lead">Who is Djiotsa?</p>
       </div>
       <!-- description -->
       <div class=" pt-4 d-flex justify-content-center">
         <div class=" about__description">
-          <p class="text-center lead montserrat-regular-italic">Djiotsa Djouake Christian Daryn is a driven and disciplined individual
+          <p class="text-center lead montserrat-regular-italic">Djiotsa Djouake Christian Daryn is a driven and
+            disciplined individual
             known for his strong sense of leadership, entrepreneurship, and dedication to excellence. Punctual and
             respectful, he brings empathy, responsibility, and a natural talent for retrospection to every endeavor. A
             marathon runner and fitness enthusiast, Christian is committed to personal growth and resilience,
@@ -214,7 +218,7 @@
       <div class="about__full-resume-download text-center mt-3 py-3 ">
         <h5 class="h3 my-3 ">For more informations, view or download my full resume.</h3>
           <p class="mt-3 pt-3">
-            <a href="./assets/cv/djiotsa_cv.pdf" class="rounded-pill btn-rounded btn__about ">
+            <a href="./assets/cv/djiotsa_cv.pdf" class="rounded-pill btn-rounded btn-rounded-secondary-light ">
               full resume <i class="fas fa-download"></i>
             </a>
           </p>
@@ -276,10 +280,9 @@
       <!-- projects items -->
       <div class="row">
         <!-- YembaNER -->
-        <div class="col-lg-6 col-md-12">
-          <!-- caroucel -->
-          <div class="project-box shadow">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="col-md-6 col-lg-6 mb-5">
+          <div class="card card-theme-light">
+            <div id="myCarousel2" class="carousel slide mb-6" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="./assets/images/projects/yembaner/1.png" alt="">
@@ -289,22 +292,64 @@
                 </div>
               </div>
             </div>
-          </div>
-          <!-- project info -->
-          <div class="project-info">
-            <div class="caption">
-              <h4><a href="#">Yemba Named Entity Recognition</a></h4>
-
-              <p class="">Fullstack</p>
-              <p>HTML/CSS | javascript | Django REST | Tensorflow | Transformer | Docker | GitHub | Render cloud |
-                Hugginface | Python</p>
-
+            <!-- project infos -->
+            <div class=" card__content p-2">
+              <!-- description -->
+              <div class="project__info montserrat-extralight lh-sm">
+                <div class="row">
+                  <!-- title -->
+                  <div class="col-3">
+                    <span>project:</span>
+                  </div>
+                  <!-- details -->
+                  <div class="col-9">
+                    <span>Yemba Named Entity Recognition<span>
+                  </div>
+                </div>
+              </div>
+              <!-- description -->
+              <div class="project__info montserrat-extralight lh-sm">
+                <div class="row">
+                  <!-- title -->
+                  <div class="col-3">
+                    <span>Description:</span>
+                  </div>
+                  <!-- details -->
+                  <div class="col-9">
+                    <span>A Named Entity Recognition (NER) for Under-resourced languages: Case study
+                      ofThe Yemba Language.</span>
+                  </div>
+                </div>
+              </div>
+              <!-- technologies stacks -->
+              <div class="project__info montserrat-extralight lh-sm">
+                <div class="row">
+                  <div class="col-3">
+                    <span>Technologies:</span>
+                  </div>
+                  <div class="col-9">
+                    <span>HTML/CSS | javascript | Django REST | Tensorflow | Transformer | Docker | GitHub
+                      | Render cloud | Hugginface | Python</span>
+                  </div>
+                </div>
+              </div>
+              <!-- link -->
+              <div class="project__info montserrat-extralight lh-sm">
+                <div class="row">
+                  <div class="col-3">
+                    <span>Link:</span>
+                  </div>
+                  <div class="col-9">
+                    <a href="https://yembanerui.onrender.com/">https://yembanerui.onrender.com</a>
+                  </div>
+                </div>
+              </div>
+              <!-- view demo button -->
               <p class="mt-3 pt-3 text-center">
-                <a href="#" class="rounded-pill btn-rounded btn__about ">
-                  View the Demo <i class="fas fa-eye"></i>
+                <a href="" class="rounded-pill btn-rounded btn-rounded-default-light ">
+                  View the Demo <i class="fa fa-eye" aria-hidden="true"></i>
                 </a>
               </p>
-
             </div>
           </div>
         </div>
@@ -417,7 +462,7 @@
               <p>Python | Django | Django REST | Redis | Celery | Postman </p>
 
               <p class="mt-3 pt-3 text-center">
-                <a href="#" class="rounded-pill btn-rounded btn__about ">
+                <a href="./assets/videos/yembaner.webm" class="glightbox rounded-pill btn-rounded btn__about ">
                   View the Demo <i class="fas fa-eye"></i>
                 </a>
               </p>
@@ -442,6 +487,16 @@
   </footer>
 
   <!--\\\\\\\\\\\\ javascript scripts /////////////-->
+  <!-- use glightbox -->
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+  <script type="text/javascript">
+    const lightbox = GLightbox({
+      href: "./assets/videos/yembaner.webm",
+      type: "video",
+      source: "youtube",
+      width: 900,
+    });
+  </script>
 
   <!-- bootstrap -->
   <script src="./assets/js/bootstrap.bundle.min.js"></script>

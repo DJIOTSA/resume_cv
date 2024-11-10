@@ -46,4 +46,31 @@
             }
         }
     }
+
+    // /* CARD COMPONENT */
+    // .card {
+    //     place-items: center;
+    //     overflow: hidden;
+    //     border-radius: 0.625rem;
+    //     // box-shadow: 0.25rem 0.25rem 0.5rem $default-highlight;
+
+    //     .card__content {
+    //         display: none;
+    //     }
+
+    //     &:hover {
+    //         transform: scale(1.05);
+    //         transition: transform 500ms ease-in;
+    //         -webkit-transform: scale(1.05);
+    //         -moz-transform: scale(1.05);
+    //         -ms-transform: scale(1.05);
+    //         -o-transform: scale(1.05);
+
+    //         .card__content {
+    //             display: block;
+    //         }
+    //     }
+
+    // }
+
 }

@@ -1,0 +1,44 @@
+/* CARD COMPONENT */
+.card {
+    place-items: center;
+    overflow: hidden;
+    border-radius: 0.625rem;
+    @include box-shadow();
+    
+    .card__content {
+        display: none;
+        
+    }
+
+    &-theme-light{
+        @include box-shadow($default-highlight);
+        background-color: $default-background;
+        color: $default-text;
+        .project__info{
+            @include border-bottom($default-highlight)
+        }
+    }
+
+    &-theme-dark{
+        @include box-shadow($dark-default-highlight);
+        background-color: $dark-default-background;
+        color: $dark-default-text;
+        .project__info{
+            @include border-bottom($dark-default-highlight)
+        }
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        transition: transform 500ms ease-in;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+
+        .card__content {
+            display: block;
+        }
+    }
+
+}

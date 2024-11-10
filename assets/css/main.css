@@ -28787,6 +28787,104 @@ p {
     padding: 0.8375rem 1.25rem 0.8375rem 1rem;
   }
 }
+.btn-rounded-default-light {
+  border-color: rgba(52, 152, 219, 0.6);
+  background-color: #3498db;
+  color: #f1c40f;
+}
+.btn-rounded-default-light:hover {
+  background-color: #ffffff;
+  color: #3498db;
+}
+.btn-rounded-default-light:focus {
+  outline: none;
+  border-color: rgba(52, 152, 219, 0.8);
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+}
+.btn-rounded-default-dark {
+  border-color: rgba(52, 152, 219, 0.6);
+  background-color: #3498db;
+  color: #f1c40f;
+}
+.btn-rounded-default-dark:hover {
+  background-color: #ffffff;
+  color: #2c3e50;
+}
+.btn-rounded-default-dark:focus {
+  outline: none;
+  border-color: rgba(44, 62, 80, 0.8);
+  box-shadow: 0 0 0 3px rgba(44, 62, 80, 0.3);
+}
+.btn-rounded-secondary-light {
+  border-color: rgba(255, 255, 255, 0.6);
+  background-color: #ffffff;
+  color: #3498db;
+}
+.btn-rounded-secondary-light:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
+.btn-rounded-secondary-light:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+.btn-rounded-secondary-dark {
+  border-color: rgba(26, 26, 26, 0.6);
+  background-color: #1a1a1a;
+  color: #3498db;
+}
+.btn-rounded-secondary-dark:hover {
+  background-color: #3498db;
+  color: #1a1a1a;
+}
+.btn-rounded-secondary-dark:focus {
+  outline: none;
+  border-color: rgba(26, 26, 26, 0.8);
+  box-shadow: 0 0 0 3px rgba(26, 26, 26, 0.3);
+}
+
+/* CARD COMPONENT */
+.card {
+  place-items: center;
+  overflow: hidden;
+  border-radius: 0.625rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem black !important;
+}
+.card .card__content {
+  display: none;
+}
+.card-theme-light {
+  box-shadow: 0.25rem 0.25rem 0.5rem #3498db !important;
+  background-color: #ffffff;
+  color: #333333;
+}
+.card-theme-light .project__info {
+  border-bottom: 1px solid #3498db;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.card-theme-dark {
+  box-shadow: 0.25rem 0.25rem 0.5rem #2c3e50 !important;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+.card-theme-dark .project__info {
+  border-bottom: 1px solid #2c3e50;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 500ms ease-in;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+.card:hover .card__content {
+  display: block;
+}
 
 .bd-mode-toggle {
   z-index: 1500;
@@ -28907,20 +29005,6 @@ nav url li a {
 .light .hero p {
   color: #333333;
 }
-.light .hero .btn__hero {
-  border-color: rgba(52, 152, 219, 0.6);
-  background-color: #3498db;
-  color: #f1c40f;
-}
-.light .hero .btn__hero:hover {
-  background-color: #ffffff;
-  color: #3498db;
-}
-.light .hero .btn__hero:focus {
-  outline: none;
-  border-color: rgba(52, 152, 219, 0.8);
-  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
-}
 .light .about {
   background-color: #3498db;
 }
@@ -28950,20 +29034,6 @@ nav url li a {
 .light .about .about__full-resume-download h3, .light .about .about__full-resume-download .h3 {
   color: #ffffff;
 }
-.light .about .btn__about {
-  border-color: rgba(255, 255, 255, 0.6);
-  background-color: #ffffff;
-  color: #3498db;
-}
-.light .about .btn__about:hover {
-  background-color: #3498db;
-  color: #ffffff;
-}
-.light .about .btn__about:focus {
-  outline: none;
-  border-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
-}
 .light .services {
   background-color: #ffffff;
 }
@@ -28971,4 +29041,18 @@ nav url li a {
 .light .services h3,
 .light .services .h3 {
   color: #333333;
+}
+.light .projects .card .card__content .btn__project-card {
+  border-color: rgba(52, 152, 219, 0.6);
+  background-color: #3498db;
+  color: #f1c40f;
+}
+.light .projects .card .card__content .btn__project-card:hover {
+  background-color: #ffffff;
+  color: #3498db;
+}
+.light .projects .card .card__content .btn__project-card:focus {
+  outline: none;
+  border-color: rgba(52, 152, 219, 0.8);
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
 }
