@@ -4,28 +4,97 @@
     // navbar
     nav {
         background-color: $default-background;
-        color: $default-highlight;
+        color: $secondary-color;
     }
 
     // hero
-    .hero{
+    .hero {
+        background-color: $default-background;
+
+        h1 {
+            color: $default-text;
+        }
+
+        p {
+            color: $default-text;
+        }
+
         .btn__hero {
             border-color: rgba($default-highlight, 0.6);
             background-color: $default-highlight;
-            color: $default-text;
-    
+            color: $secondary-color;
+
             &:hover {
                 background-color: $default-background;
                 color: $default-highlight;
             }
+
+            &:focus {
+                outline: none; // removes default outline
+                border-color: rgba($default-highlight, 0.8); // a more prominent focus border
+                box-shadow: 0 0 0 3px rgba($default-highlight, 0.3); // adds a subtle shadow
+            }
         }
-    
+
     }
+
     // about
-    .about{
-        
-        h2{
+    .about {
+        background-color: $default-highlight;
+
+        .heading-line::before {
+            background-color: $secondary-color;
+        }
+
+        .heading-line::after {
+            background-color: $secondary-color
+        }
+
+        h2,
+        h3 {
+            color: $secondary-color;
+        }
+
+        .details__icon {
+            color: $secondary-color;
+        }
+
+        .details__infos {
+            color: $default-background;
+        }
+
+        .about__full-resume-download {
+            h3 {
+                color: $default-background;
+            }
+        }
+
+        .btn__about {
+            border-color: rgba($default-background, 0.6);
+            background-color: $default-background;
             color: $default-highlight;
+
+            &:hover {
+                background-color: $default-highlight;
+                color: $default-background;
+            }
+
+            &:focus {
+                outline: none; // removes default outline
+                border-color: rgba($default-background, 0.8); // a more prominent focus border
+                box-shadow: 0 0 0 3px rgba($default-background, 0.3); // adds a subtle shadow
+            }
+        }
+
+    }
+
+    // services
+    .services {
+        background-color: $default-background;
+
+        h2,
+        h3 {
+            color: $default-text;
         }
     }
 

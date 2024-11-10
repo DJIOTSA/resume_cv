@@ -14,11 +14,20 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
     rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="./assets/fonts/Montserrat-Bold.ttf">
+  <link rel="stylesheet" href="./assets/fonts/Montserrat-Regular.ttf">
+  <link rel="stylesheet" href="./assets/fonts/Poppins-Bold.ttf">
+  <link rel="stylesheet" href="./assets/fonts/Poppins-Light.ttf">
+  <link rel="stylesheet" href="./assets/fonts/Poppins-Medium.ttf">
+  <link rel="stylesheet" href="./assets/fonts/Poppins-Regular.ttf">
+  <link rel="stylesheet" href="./assets/fonts/Poppins-Black.ttf">
+   -->
+
 
   <!-- css -->
   <link rel="stylesheet" href="./assets/css/main.css" />
-  <link rel="stylesheet" href="./assets/fonts/bootstrap-icons.woff"/>
-  <link rel="stylesheet" href="./assets/fonts/bootstrap-icons.woff2"/>
+  <link rel="stylesheet" href="./assets/fonts/bootstrap-icons.woff" />
+  <link rel="stylesheet" href="./assets/fonts/bootstrap-icons.woff2" />
 </head>
 
 <body class="container-fluid light">
@@ -94,16 +103,16 @@
             <a class="nav-link active" aria-current="page" href="#hero">home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#about">about me</a>
+            <a class="nav-link active" aria-current="page" href="#about">about me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">projects</a>
+            <a class="nav-link active" href="#services">services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">skills</a>
+            <a class="nav-link active" href="#projects">projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">contact</a>
+            <a class="nav-link active" href="#contact">contact</a>
           </li>
 
         </ul>
@@ -111,104 +120,326 @@
     </div>
   </nav>
   <!-- \\\\\\\\\\\\ HERO SECTION //////// -->
-  <section id="hero" class="hero container d-flex  pt-3">
-    <div class="justify-content-center ">
+  <section id="hero" class="hero  d-flex ">
+    <div class="justify-content-center container pt-3">
       <div class="text-center">
         <h1 class="poppins-black mb-3">Hello, I'm Djiotsa Djouake Christian Daryn a Software Engineer</h1>
-        <p class="px-md-5 px-lg-5 mb-3">I'm passionate about building fullstack web-based applications for user impacts, that attract customers
-          and grow your business.</p>
+        <p class="px-md-5 px-lg-5 mb-3">I'm driven to build full-stack web applications that don’t just function but
+          truly captivate, attracting users, boosting engagement, and driving measurable growth for your business.</p>
         <!-- get in touch -->
-        <button type="button" href="mailto:mhulodjiotsa@gmail.com" class="rounded-pill btn-rounded btn__hero mt-3 ">
-          Get In touch <i class="fas fa-arrow-right"></i>
-        </button>
+        <p class="mt-3 pt-3">
+          <a href="mailto:mhulodjiotsa@gmail.com" class="rounded-pill btn-rounded btn__hero ">
+            Get In touch <i class="fas fa-arrow-circle-right"></i>
+          </a>
+        </p>
       </div>
     </div>
-
   </section>
 
   <!-- \\\\\\\\ ABOUT ME SECTION /////// -->
-  <section id="about" class="about">
-    <!-- about section title -->
-    <h2 class="about__title  text-center mb-5">About me</h2>
-    <div class="title-underline"></div>
-    <!-- about section content -->
-    <div class="row">
-      <!-- image profile -->
-      <div class="about__profile-image col-sm-12 col-md-12 col-lg-5"></div>
-      <!-- about information -->
-      <div class="about__profile-details col-sm-12 col-md-12 col-lg-7">
-        <!-- my  definition -->
-        <div class="data row">
-          <div class="col-3 details__icon"></div>
-          <div class="col-9 details__infos">
-            <h3 class="details__subtitle">Who is Djiotsa?</h3>
-            <p class="details__infos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cum
-              perspiciatis accusamus ipsam. Sequi a saepe doloremque, illum id dolores.</p>
-          </div>
+  <section id="about" class="about pt-3">
+    <div class="container pt-5">
+      <!-- about section title -->
+      <div class="">
+        <h2 class="about__title  text-center poppins-bold">About me</h2>
+        <div class="heading-line "></div>
+      </div>
+      <!-- about section content -->
+      <div class="row mb-5 mt-5">
+        <!-- image profile -->
+        <div class="about__profile-image col-sm-12 col-md-12 col-lg-5 my-auto">
+          <img src="./assets/images/profiles/profile8.jpg" class="img-fluid my-auto"
+            alt="djiotsa djouake christian daryn profile picture">
         </div>
-        <!-- Academic -->
-        <div class="data row mt-3">
-          <div class="col-3 details__icon"></div>
-          <div class="col-9 details__infos">
-            <h3 class="details__subtitle">Academic reviews</h3>
-            <p class="details__infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Necessitatibus corporis mollitia pariatur hic praesentium consequuntur quia recusandae
-              numquam, atque similique!</p>
+        <!-- about information -->
+        <div class="about__profile-details mt-5 col-sm-12 col-md-12 col-lg-7">
+          <!-- my  definition -->
+          <div class="data row">
+            <div class="col-2 details__icon "> <i class="fa fa-user fa-2x" aria-hidden="true"></i> </div>
+            <div class="col-10 details__infos">
+              <h3 class="details__subtitle">Who is Djiotsa?</h3>
+              <p class="details__infos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias autem ad
+                neque?</p>
+            </div>
           </div>
-        </div>
-        <!-- achievements -->
-        <div class="data row mt-3">
-          <div class="col-3 details__icon"></div>
-          <div class="col-9 details__infos">
-            <h3 class="details__subtitle">achievements</h3>
-            <p class="details__infos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
-              culpa officia, hic neque provident ipsum ab magnam necessitatibus perferendis eius quisquam
-              eum architecto ea porro, tenetur quo tempore explicabo mollitia.</p>
+          <!-- skills -->
+          <div class="data row">
+            <div class="col-2 details__icon">
+              <i class="fa fa-check-circle fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 details__infos">
+              <h3 class="details__subtitle">Skills</h3>
+              <p class="details__infos">Fullstack Developer | Software Design Thinking | Cloud Hosting | UML | Database
+                | Deep Leaning | REST API | Docker</p>
+            </div>
           </div>
-        </div>
-        <div class="data row">
-          <div class="col-3 details__icon"></div>
-          <div class="col-9 details__infos">
-            <h3 class="details__subtitle">Skills</h3>
-            <p class="details__infos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quas
-              tempora ratione numquam fugiat vel, error amet laborum veniam, laboriosam eaque?</p>
+          <!-- experience -->
+          <div class="data row mt-3">
+            <div class="col-2 details__icon">
+              <i class="fa fa-business-time fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 details__infos">
+              <h3 class="details__subtitle">Experience</h3>
+              <p class="details__infos">Zepstra ltd (software engineer) | Hackerton (Software developer)</p>
+            </div>
           </div>
-        </div>
-        <!-- experience -->
-        <div class="data row mt-3">
-          <div class="col-3 details__icon"></div>
-          <div class="col-9 details__infos">
-            <h3 class="details__subtitle">Experience</h3>
-            <p class="details__infos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-              consequuntur laudantium dolorum numquam quos, laborum fuga. Perferendis laboriosam assumenda
-              exercitationem!</p>
+          <!-- Education -->
+          <div class="data row mt-3">
+            <div class="col-2 details__icon"> <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i> </div>
+            <div class="col-10 details__infos">
+              <h3 class="details__subtitle">Education</h3>
+              <p class="details__infos">Bachelor of Engineering in software (3.37/4 GPA, FET, University of Buea) |
+                BAC+1 in Physics Science (University of Dschang)</p>
+            </div>
+          </div>
+          <!-- achievements -->
+          <div class="data row mt-3">
+            <div class="col-2 details__icon">
+              <i class="fa fa-award fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 details__infos">
+              <h3 class="details__subtitle">Achievements</h3>
+              <p class="details__infos">Granted 03 software design thinking certifications with IBM and 02 product
+                management certifications with pendo</p>
+            </div>
           </div>
         </div>
       </div>
       <!-- view or download full resume -->
-      <div class="about__full-resume-download text-center">
-        <h5 class="h1">For more information view or download my full resume.</h3>
-          <button>full Resume <span><i class="fa fa-download" aria-hidden="true"></i></span></button>
+      <div class="about__full-resume-download text-center mt-3 py-3 ">
+        <h5 class="h3 my-3 ">For more informations, view or download my full resume.</h3>
+          <p class="mt-3 pt-3">
+            <a href="./assets/cv/djiotsa_cv.pdf" class="rounded-pill btn-rounded btn__about ">
+              full resume <i class="fas fa-download"></i>
+            </a>
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <!--\\\\\\\\ services section ///////// -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="services__title text-center">
+        <h2 class="h2 poppins-bold">Services</h2>
+        <div class="heading-line"></div>
+        <p class="lead">Services Offered</p>
+      </div>
+      <div class="services_list">
+        <div class="row text-center">
+          <div class=" col-md-12 col-lg-4">
+            <div class="services_card">
+              <i class="fa fa-code fa-4x mb-3"></i>
+              <h3>Web Development & Maintenance</h3>
+            </div>
+          </div>
+          <div class=" col-md-12 col-lg-4">
+            <div class="services_card">
+              <i class="fa fa-cloud fa-4x mb-3" aria-hidden="true"></i>
+              <h3>Cloud Hosting</h3>
+            </div>
+          </div>
+          <div class=" col-md-12 col-lg-4">
+            <div class="services_card">
+              <i class="fa fa-brain fa-4x mb-3" aria-hidden="true"></i>
+              <h3>AI solutions</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- \\\\\\\\\\ Projects section /////// -->
-  <section id="projects"></section>
+  <section id="projects">
+    <div class="container">
+      <!-- header -->
+      <div class="row text-center mt-5">
+        <div class="h1 display-3 fw-bold text-capitalize">Latest work</div>
+        <div class="heading-line"></div>
+        <p class="lead">Explore some of our projects</p>
+      </div>
+      <!-- filter button -->
+      <div class="row text-center mt-5 mb-4 g-3">
+        <div class="col-md-12">
+          <button class="btn btn-primary" type="button">ALL</button>
+          <button class="btn btn-outline-primary disabled" type="button">fullstack</button>
+          <button class="btn btn-outline-primary disabled" type="button">frontend</button>
+          <button class="btn btn-outline-primary disabled" type="button">backend</button>
+        </div>
+      </div>
+      <!-- projects items -->
+      <div class="row">
+        <!-- YembaNER -->
+        <div class="col-lg-6 col-md-12">
+          <!-- caroucel -->
+          <div class="project-box shadow">
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/images/projects/yembaner/1.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/projects/yembaner/2.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- project info -->
+          <div class="project-info">
+            <div class="caption">
+              <h4><a href="#">Yemba Named Entity Recognition</a></h4>
 
-  <!--\\\\\\\\ skills section ///////// -->
-  <section id="skills"></section>
+              <p class="">Fullstack</p>
+              <p>HTML/CSS | javascript | Django REST | Tensorflow | Transformer | Docker | GitHub | Render cloud |
+                Hugginface | Python</p>
+
+              <p class="mt-3 pt-3 text-center">
+                <a href="#" class="rounded-pill btn-rounded btn__about ">
+                  View the Demo <i class="fas fa-eye"></i>
+                </a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- MOMO manage -->
+        <div class="col-lg-6 col-md-12">
+          <!-- caroucel -->
+          <div class="project-box shadow">
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/images/projects/momo_manage/1.png" alt="momo manage">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/projects/momo_manage/2.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- project info -->
+          <div class="project-info">
+            <div class="caption">
+              <h4><a href="#">MOMO MANAGE</a></h4>
+
+              <p class="">Frontend</p>
+              <p>HTML/CSS | SASS | Bootstrap 5 | javascript | Render Cloud | GitHub </p>
+
+              <p class="mt-3 pt-3 text-center">
+                <a href="#" class="rounded-pill btn-rounded btn__about ">
+                  View the Demo <i class="fas fa-eye"></i>
+                </a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- portfolio -->
+        <div class="col-lg-6 col-md-12">
+          <!-- caroucel -->
+          <div class="project-box shadow">
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/images/projects/portfolio/1.png" alt="portfolio 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/projects/portfolio/2.png" alt="portfolio 2">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- project info -->
+          <div class="project-info">
+            <div class="caption">
+              <h4><a href="#">Company Portfolio</a></h4>
+
+              <p class="">Frontend</p>
+              <p>HTML/CSS | javascript | SASS | Bootstrap | Render cloud | GitHub | glightbox</p>
+
+              <p class="mt-3 pt-3 text-center">
+                <a href="#" class="rounded-pill btn-rounded btn__about ">
+                  View the Demo <i class="fas fa-eye"></i>
+                </a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- employee goal tracker -->
+        <div class="col-lg-6 col-md-12">
+          <!-- caroucel -->
+          <div class="project-box shadow">
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/images/projects/employee_goal_tracker/1.png" alt="EGT 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/projects/employee_goal_tracker/2.png" alt="EGT 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/projects/employee_goal_tracker/3.png" alt="EGT 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/projects/employee_goal_tracker/4.png" alt="EGT 4">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/projects/employee_goal_tracker/4.png" alt="EGT 5">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/projects/employee_goal_tracker/6.png" alt="EGT 6">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/projects/employee_goal_tracker/7.png" alt="EGT 7">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/projects/employee_goal_tracker/8.png" alt="EGT 8">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- project info -->
+          <div class="project-info">
+            <div class="caption">
+              <h4><a href="#">Employees Tasks Management System</a></h4>
+
+              <p class="">Backend</p>
+              <p>Python | Django | Django REST | Redis | Celery | Postman </p>
+
+              <p class="mt-3 pt-3 text-center">
+                <a href="#" class="rounded-pill btn-rounded btn__about ">
+                  View the Demo <i class="fas fa-eye"></i>
+                </a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+  </section>
 
   <!-- \\\\\\\ contact section /////////-->
-  <section id="contact"></section>
+  <section id="contact">
+  </section>
 
   <!-- \\\\\\\\\\ footer section /////// -->
-  <footer id="footer"></footer>
+  <footer id="footer">
+
+  </footer>
 
   <!--\\\\\\\\\\\\ javascript scripts /////////////-->
 
   <!-- bootstrap -->
-  <script src="./assets/js/bootstrap.bundle.min.js"></script> 
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
   <!-- fontawesome -->
   <script src="./assets/js/all.min.js"></script>
 </body>

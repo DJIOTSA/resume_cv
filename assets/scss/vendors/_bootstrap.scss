@@ -1,17 +1,7 @@
 @import "../abstracts/_variables.scss";
 
 $primary: $primary-color;
-$secondary: $accent-color;
-
-.display-1 {
-  @media (max-width: 768px) {
-    font-size: 3rem;
-  }
-
-  @media (max-width: 576px) {
-    font-size: 1.7rem;
-  }
-}
+$secondary: $secondary-color;
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
