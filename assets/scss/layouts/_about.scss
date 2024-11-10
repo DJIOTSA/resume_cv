@@ -18,11 +18,11 @@
         }
     }
 
-    .about__profile-image {
-        @include media-breakpoint-down(sm) {
-            display: none;
-        }
-    }
+    // .about__profile-image {
+    //     @include media-breakpoint-down(sm) {
+    //         display: none;
+    //     }
+    // }
 
     @include media-breakpoint-down(md) {
         padding-bottom: 3rem;

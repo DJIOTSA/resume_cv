@@ -54,6 +54,17 @@
         h3 {
             color: $secondary-color;
         }
+        .about__title{
+            p{
+                color:$secondary-color;
+            }
+        }
+
+        .about__description{
+            p{
+                color: $default-background;
+            }
+        }
 
         .details__icon {
             color: $secondary-color;
