@@ -1,9 +1,16 @@
 // light theme
 .light {
   @include default-light-theme;
+  .text-primary {
+    color: $primary-color !important;
+  }
   // navbar
   .navbar {
     @include default-light-theme;
+    .navbar-brand,
+    .nav-link {
+      color: $default-text !important;
+    }
   }
 
   // hero
@@ -41,7 +48,7 @@
     .services__title {
       h2,
       p {
-        color: $primary-color;
+        color: $accent-color;
       }
     }
   }
@@ -52,7 +59,22 @@
     .projects__title {
       h2,
       p {
-        color: $primary-color;
+        color: $accent-color;
+      }
+    }
+  }
+
+  // contact
+  .contact {
+    @include light-secondary-theme;
+    h2,
+    p {
+      color: $secondary-color;
+    }
+
+    .contact__form {
+      // @include default-light-theme;
+      .contact__header {
       }
     }
   }

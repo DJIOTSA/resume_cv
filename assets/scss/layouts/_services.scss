@@ -10,4 +10,21 @@
         }
     }
 
+    .hr-separator{
+        text-align: center;
+        margin: 5rem auto 9rem auto;
+        width: 15rem;
+        &-light{
+            border-bottom: 3px dotted $default-text;
+        }
+
+        @include media-breakpoint-down(sm){
+            width: 3rem;
+        }
+        @include media-breakpoint-down(md){
+            width: 7rem;
+        }
+        
+    }
+
 }

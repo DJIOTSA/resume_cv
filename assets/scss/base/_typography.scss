@@ -340,19 +340,19 @@ p {
 .heading-line{
   &-light{
     &::before{
-      @include heading-line-before($primary-color); 
+      @include heading-line-before($accent-color); 
     }
     &::after{
-      @include heading-line-after($primary-color);
+      @include heading-line-after($accent-color);
     } 
   }
 
   &-dark{
     &::before{
-      @include heading-line-before($dark-primary-color); 
+      @include heading-line-before($dark-accent-color); 
     }
     &::after{
-      @include heading-line-after($dark-primary-color);
+      @include heading-line-after($dark-accent-color);
     } 
   }
   &-secondary{

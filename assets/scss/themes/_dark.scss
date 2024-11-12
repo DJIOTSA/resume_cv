@@ -1,22 +1,25 @@
 // dark theme
 .dark {
   @include default-dark-theme;
-
-  .shadow{
+  .text-primary{
+    color: $dark-primary-color !important;
+  }
+  .shadow {
     @include nav-box-shadow(rgba(#ffffff, 0.05));
   }
 
   // navbar
-  nav {
+  .navbar {
     @include default-dark-theme;
-    .navbar-brand {
+    .navbar-brand,
+    .nav-link,
+    .navbar-toggler-icon,
+    .navbar-toggler {
       color: $dark-default-text;
     }
 
-    .nav-link, .active{
-      a{
-        color: $dark-default-text !important;
-      }
+    .navbar-toggler{
+      border-color: $dark-default-text;
     }
   }
 
@@ -55,7 +58,7 @@
     .services__title {
       h2,
       p {
-        color: $dark-primary-color;
+        color: $dark-accent-color;
       }
     }
   }
@@ -66,7 +69,7 @@
     .projects__title {
       h2,
       p {
-        color: $dark-primary-color;
+        color: $dark-accent-color;
       }
     }
   }
