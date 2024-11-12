@@ -1,0 +1,73 @@
+// dark theme
+.dark {
+  @include default-dark-theme;
+
+  .shadow{
+    @include nav-box-shadow(rgba(#ffffff, 0.05));
+  }
+
+  // navbar
+  nav {
+    @include default-dark-theme;
+    .navbar-brand {
+      color: $dark-default-text;
+    }
+
+    .nav-link, .active{
+      a{
+        color: $dark-default-text !important;
+      }
+    }
+  }
+
+  // hero
+  .hero {
+    @include default-dark-theme;
+
+    h1 {
+      color: $dark-default-text;
+    }
+  }
+
+  // about
+  .about {
+    @include dark-secondary-theme;
+
+    h2,
+    h3 {
+      color: $dark-secondary-color;
+    }
+
+    .about__title {
+      p {
+        color: $dark-secondary-color;
+      }
+    }
+
+    .details__icon {
+      color: $dark-secondary-color;
+    }
+  }
+
+  // services
+  .services {
+    @include default-dark-theme;
+    .services__title {
+      h2,
+      p {
+        color: $dark-primary-color;
+      }
+    }
+  }
+
+  // projects
+  .projects {
+    @include default-dark-theme;
+    .projects__title {
+      h2,
+      p {
+        color: $dark-primary-color;
+      }
+    }
+  }
+}

@@ -5,9 +5,16 @@
     padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
     font-weight: 700;
     margin: 0;
+    font-family: "Poppins", sans-serif;
+
+
 
     @include media-breakpoint-down(sm) {
         padding: 0.8375rem 1.25rem 0.8375rem 1rem;
+    }
+
+    &-project-card{
+        padding: 0.6375rem 1.25rem 0.6375rem 1.25rem;
     }
 
     &-default-light {

@@ -1,122 +1,59 @@
 // light theme
 .light {
+  @include default-light-theme;
+  // navbar
+  .navbar {
+    @include default-light-theme;
+  }
 
-    // navbar
-    nav {
-        background-color: $default-background;
+  // hero
+  .hero {
+    @include default-light-theme;
+
+    h1 {
+      color: $default-text;
+    }
+  }
+
+  // about
+  .about {
+    @include light-secondary-theme;
+
+    h2,
+    h3 {
+      color: $secondary-color;
+    }
+
+    .about__title {
+      p {
         color: $secondary-color;
+      }
     }
 
-    // hero
-    .hero {
-        background-color: $default-background;
-
-        h1 {
-            color: $default-text;
-        }
-
-        p {
-            color: $default-text;
-        }
-
+    .details__icon {
+      color: $secondary-color;
     }
+  }
 
-    // about
-    .about {
-        background-color: $default-highlight;
-
-        .heading-line::before {
-            background-color: $secondary-color;
-        }
-
-        .heading-line::after {
-            background-color: $secondary-color
-        }
-
-        h2,
-        h3 {
-            color: $secondary-color;
-        }
-
-        .about__title {
-            p {
-                color: $secondary-color;
-            }
-        }
-
-        .about__description {
-            p {
-                color: $default-background;
-            }
-        }
-
-        .details__icon {
-            color: $secondary-color;
-        }
-
-        .details__infos {
-            color: $default-background;
-        }
-
-        .about__full-resume-download {
-            h3 {
-                color: $default-background;
-            }
-        }
-
-        // .btn__about {
-        //     border-color: rgba($default-background, 0.6);
-        //     background-color: $default-background;
-        //     color: $default-highlight;
-
-        //     &:hover {
-        //         background-color: $default-highlight;
-        //         color: $default-background;
-        //     }
-
-        //     &:focus {
-        //         outline: none; // removes default outline
-        //         border-color: rgba($default-background, 0.8); // a more prominent focus border
-        //         box-shadow: 0 0 0 3px rgba($default-background, 0.3); // adds a subtle shadow
-        //     }
-        // }
-
+  // services
+  .services {
+    @include default-light-theme;
+    .services__title {
+      h2,
+      p {
+        color: $primary-color;
+      }
     }
+  }
 
-    // services
-    .services {
-        background-color: $default-background;
-
-        h2,
-        h3 {
-            color: $default-text;
-        }
+  // projects
+  .projects {
+    @include default-light-theme;
+    .projects__title {
+      h2,
+      p {
+        color: $primary-color;
+      }
     }
-
-    // projects
-    .projects {
-        .card {
-            .card__content{
-                .btn__project-card {
-                    border-color: rgba($default-highlight, 0.6);
-                    background-color: $default-highlight;
-                    color: $secondary-color;
-    
-                    &:hover {
-                        background-color: $default-background;
-                        color: $default-highlight;
-                    }
-    
-                    &:focus {
-                        outline: none; // removes default outline
-                        border-color: rgba($default-highlight, 0.8); // a more prominent focus border
-                        box-shadow: 0 0 0 3px rgba($default-highlight, 0.3); // adds a subtle shadow
-                    }
-                }
-            }
-        }
-
-
-    }
-
+  }
 }

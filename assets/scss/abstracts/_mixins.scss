@@ -92,7 +92,11 @@
 
 // GRADIEN MIXIN
 @mixin gradient {
-  background: linear-gradient(to right, rgba($white, 0.95), rgba($background-color, 0.95));
+  background: linear-gradient(
+    to right,
+    rgba($white, 0.95),
+    rgba($background-color, 0.95)
+  );
 }
 
 // absolute center
@@ -102,7 +106,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 // transition property
 @mixin transitionProperty {
@@ -127,6 +130,50 @@
 // border-bottom
 @mixin border-bottom($border-color: black) {
   border-bottom: 1px solid $border-color;
-  margin-top: .7rem;
-  margin-bottom: .7rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+@mixin default-light-theme {
+  background-color: $default-background;
+  color: $default-text;
+}
+
+@mixin default-dark-theme {
+  background-color: $dark-default-background;
+  color: $dark-default-text;
+}
+
+@mixin light-secondary-theme {
+  background-color: $default-highlight;
+  color: $default-background;
+}
+
+@mixin dark-secondary-theme {
+  background-color: $dark-default-highlight;
+  color: $dark-default-text;
+}
+
+@mixin heading-line-before($color: $primary-color) {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: $color;
+}
+
+@mixin heading-line-after($color: $primary-color) {
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  background-color: $color;
+}
+
+@mixin nav-box-shadow($color: rgba(0, 0, 0, 0.15)) {
+  box-shadow: 0 0.5rem 1rem $color !important;
 }
