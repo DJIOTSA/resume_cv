@@ -1,7 +1,7 @@
 .projects {
     @include media-breakpoint-down(sm){
         .projects__filter{
-            display: none;
+            // display: none;
         }
     }
 }

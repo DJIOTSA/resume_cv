@@ -1,15 +1,23 @@
 // light theme
 .light {
   @include default-light-theme;
+
   .text-primary {
     color: $primary-color !important;
   }
+
   // navbar
   .navbar {
     @include default-light-theme;
+
     .navbar-brand,
     .nav-link {
       color: $default-text !important;
+    }
+
+    .dropdown-toggle{
+      stroke: $default-text;
+      color: $default-text;
     }
   }
 
@@ -45,7 +53,9 @@
   // services
   .services {
     @include default-light-theme;
+
     .services__title {
+
       h2,
       p {
         color: $accent-color;
@@ -56,7 +66,9 @@
   // projects
   .projects {
     @include default-light-theme;
+
     .projects__title {
+
       h2,
       p {
         color: $accent-color;
@@ -67,6 +79,7 @@
   // contact
   .contact {
     @include light-secondary-theme;
+
     h2,
     p {
       color: $secondary-color;
@@ -74,8 +87,47 @@
 
     .contact__form {
       // @include default-light-theme;
-      .contact__header {
+    }
+
+    .social-links {
+      @include default-light-theme;
+    }
+  }
+
+  .footer {
+    @include footer-light-theme;
+
+    // contact-box content
+    .contact-box {
+      &__icon {
+        stroke: $default-footer-icon;
+      }
+
+      &__info {
+        &--title {
+          color: $default-footer-link;
+        }
+
+        &--subtitle {
+          color: $default-footer-link;
+        }
+      }
+
+    }
+
+    // Copyrght 
+    .footer-bottom {
+      &__copyright {
+        color: $default-footer-text;
+
+        a {
+          color:  $default-footer-text;
+          &:hover {
+            color: $default-footer-link;
+          }
+        }
       }
     }
+
   }
 }

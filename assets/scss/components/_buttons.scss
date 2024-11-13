@@ -35,12 +35,12 @@
     }
 
     &-default-dark {
-        border-color: rgba($default-highlight, 0.6);
-        background-color: $default-highlight;
-        color: $secondary-color;
+        border-color: rgba($dark-default-highlight, 0.6);
+        background-color: $dark-default-highlight;
+        color: $dark-secondary-color;
 
         &:hover {
-            background-color: $default-background;
+            background-color: $dark-default-background;
             color: $dark-default-highlight;
         }
 
@@ -71,10 +71,10 @@
     &-secondary-dark {
         border-color: rgba($dark-default-background, 0.6);
         background-color: $dark-default-background;
-        color: $default-highlight;
+        color: $dark-default-highlight;
 
         &:hover {
-            background-color: $default-highlight;
+            background-color: $dark-default-highlight;
             color: $dark-default-background;
         }
 

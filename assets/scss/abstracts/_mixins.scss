@@ -92,11 +92,9 @@
 
 // GRADIEN MIXIN
 @mixin gradient {
-  background: linear-gradient(
-    to right,
-    rgba($white, 0.95),
-    rgba($background-color, 0.95)
-  );
+  background: linear-gradient(to right,
+      rgba($white, 0.95),
+      rgba($background-color, 0.95));
 }
 
 // absolute center
@@ -176,4 +174,22 @@
 
 @mixin nav-box-shadow($color: rgba(0, 0, 0, 0.15)) {
   box-shadow: 0 0.5rem 1rem $color !important;
+}
+
+@mixin border-radius {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+@mixin footer-light-theme {
+  background-color: $default-footer-background;
+  color: $default-footer-text;
+}
+
+@mixin footer-dark-theme {
+  background-color: $dark-default-footer-background;
+  color: $dark-default-footer-text;
 }

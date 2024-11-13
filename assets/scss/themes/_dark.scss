@@ -1,9 +1,11 @@
 // dark theme
 .dark {
   @include default-dark-theme;
-  .text-primary{
+
+  .text-primary {
     color: $dark-primary-color !important;
   }
+
   .shadow {
     @include nav-box-shadow(rgba(#ffffff, 0.05));
   }
@@ -11,6 +13,7 @@
   // navbar
   .navbar {
     @include default-dark-theme;
+
     .navbar-brand,
     .nav-link,
     .navbar-toggler-icon,
@@ -18,8 +21,13 @@
       color: $dark-default-text;
     }
 
-    .navbar-toggler{
+    .navbar-toggler {
       border-color: $dark-default-text;
+    }
+
+    .dropdown-toggle {
+      stroke: $dark-default-text;
+      color: $dark-default-text;
     }
   }
 
@@ -55,7 +63,9 @@
   // services
   .services {
     @include default-dark-theme;
+
     .services__title {
+
       h2,
       p {
         color: $dark-accent-color;
@@ -66,11 +76,69 @@
   // projects
   .projects {
     @include default-dark-theme;
+
     .projects__title {
+
       h2,
       p {
         color: $dark-accent-color;
       }
     }
+  }
+
+  // contact
+  .contact {
+    @include dark-secondary-theme;
+
+    h2,
+    p {
+      color: $dark-secondary-color;
+    }
+
+    .contact__form {
+      // @include default-light-theme;
+    }
+
+    .social-links {
+      @include default-dark-theme;
+    }
+  }
+
+  .footer {
+    @include footer-dark-theme;
+
+    // contact-box content
+    .contact-box {
+      &__icon {
+        stroke: $dark-default-footer-icon;
+      }
+
+      &__info {
+        &--title {
+          color: $dark-default-footer-link;
+        }
+
+        &--subtitle {
+          color: $dark-default-footer-link;
+        }
+      }
+
+    }
+
+    // Copyrght 
+    .footer-bottom {
+      &__copyright {
+        color: $dark-default-footer-text;
+
+        a {
+          color: $dark-default-footer-text;
+
+          &:hover {
+            color: $dark-default-footer-link;
+          }
+        }
+      }
+    }
+
   }
 }

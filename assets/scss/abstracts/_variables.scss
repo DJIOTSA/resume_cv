@@ -7,6 +7,11 @@ $default-background: #ffffff;
 $default-text: #333333;
 $default-highlight: $primary-color;
 
+$default-footer-background: #f5f5f5;
+$default-footer-text: #4a4a4a;
+$default-footer-link: #ff6f61;
+$default-footer-icon: $accent-color;
+
 //  Dark mode color
 $dark-primary-color: #2c3e50;
 $dark-secondary-color: #ff9900;
@@ -15,4 +20,10 @@ $dark-accent-color: #1abc9c;
 $dark-default-background: #1a1a1a;
 $dark-default-text: #ffffff;
 $dark-default-highlight: $dark-primary-color;
+
+
+$dark-default-footer-background: #1e2a38;
+$dark-default-footer-text: #e0e0e0;
+$dark-default-footer-link: #d35400;
+$dark-default-footer-icon: $dark-accent-color;
 

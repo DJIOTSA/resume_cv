@@ -1,11 +1,45 @@
 .contact {
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  @include border-radius;
   margin-top: 3rem;
   margin-bottom: 5rem;
   padding-top: 7rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
+
+  .contact__header{
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .contact__form {
+    @include border-radius;
+    @include media-breakpoint-down(lg){
+      margin-top: 4rem;
+    }
+
+  }
+
+  .contact__social-link{
+    @include media-breakpoint-down(lg){
+      margin-bottom: 4rem;
+    }
+  }
+
+  .profile2 {
+    display: block;
+    max-height: 450px;
+    overflow-y: hidden;
+    width: auto;
+    @include border-radius;
+    border: 1px solid;
+    img{
+      height: fit-content;
+    }
+    @include media-breakpoint-down(sm){
+      max-height: 350px;
+    }
+  }
+
+  .social-links{
+    @include border-radius;
+  }
 }
