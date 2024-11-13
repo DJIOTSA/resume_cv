@@ -147,6 +147,7 @@ const setBtn = (btn)=>{
 const setDisplayNone = (elts) =>{
     elts.forEach((elt)=>{
         elt.classList.add('d-none');
+        allBtn.se
     })
 }
 
@@ -154,6 +155,5 @@ const setDisplayNone = (elts) =>{
 const removeDisplayNone = (elts) =>{
     elts.forEach((elt)=>{
         elt.classList.remove('d-none');
-        elt.classList.add('d-flex');
     })
 }

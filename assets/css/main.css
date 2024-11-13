@@ -29250,10 +29250,10 @@ nav url li a {
   stroke: #2ecc71;
 }
 .light .footer .contact-box__info--title {
-  color: #ff6f61;
+  color: #2ecc71;
 }
 .light .footer .contact-box__info--subtitle {
-  color: #ff6f61;
+  color: #2ecc71;
 }
 .light .footer .footer-bottom__copyright {
   color: #4a4a4a;
@@ -29350,10 +29350,10 @@ nav url li a {
   stroke: #1abc9c;
 }
 .dark .footer .contact-box__info--title {
-  color: #d35400;
+  color: #1abc9c;
 }
 .dark .footer .contact-box__info--subtitle {
-  color: #d35400;
+  color: #1abc9c;
 }
 .dark .footer .footer-bottom__copyright {
   color: #e0e0e0;
