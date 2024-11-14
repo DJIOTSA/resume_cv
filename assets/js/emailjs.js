@@ -1,28 +1,5 @@
 // Form submission handling
 window.onload = function () {
-  // const form = document.querySelector("form#myForm");
-  // form.addEventListener("submit", function (event) {
-  //   event.preventDefault();
-  //   var formData = new FormData(this);
-  //   formData.append("service_id", "service_elgiazj");
-  //   formData.append("template_id", "template_h4fq7r7");
-  //   formData.append("user_id", "HcQt66_RE4ZQ4nSA1");
-
-  //   $.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
-  //     type: "POST",
-  //     data: formData,
-  //     contentType: false, // auto-detection
-  //     processData: false, // no need to parse formData to string
-  //   })
-  //     .done(function () {
-  //       showAlert("Your mail is sent!");
-  //       form.querySelector("textarea").value = "";
-  //     })
-  //     .fail(function (error) {
-  //       showAlert("FAILED...Try again later", true);
-  //     });
-  // });
-
   document.querySelector("form#myForm").addEventListener("submit", function (event) {
     event.preventDefault();
 
