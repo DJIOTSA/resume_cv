@@ -19,6 +19,11 @@
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/fonts/bootstrap-icons.woff">
   <link rel="stylesheet" href="./assets/fonts/bootstrap-icons.woff2">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <!-- load jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
 </head>
 
 <body class="container-fluid light">
@@ -29,6 +34,8 @@
         Djiotsa
         <span> Djouake Christian Daryn</span>
       </a>
+      <!-- display  alert for feedback send status -->
+      <div id="alert-container"></div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         data-bs-theme="light" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -85,8 +92,8 @@
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
                   <li>
-                    <button type="button" class="dropdown-item d-flex align-items-center theme-light" data-bs-theme-value="light"
-                      aria-pressed="false">
+                    <button type="button" class="dropdown-item d-flex align-items-center theme-light"
+                      data-bs-theme-value="light" aria-pressed="false">
                       <svg class="bi me-2 opacity-50 theme-icon" width=".7em" height=".7em">
                         <use href="#sun-fill"></use>
                       </svg>
@@ -97,8 +104,8 @@
                     </button>
                   </li>
                   <li>
-                    <button type="button" class="dropdown-item d-flex align-items-center theme-dark" data-bs-theme-value="dark"
-                      aria-pressed="false">
+                    <button type="button" class="dropdown-item d-flex align-items-center theme-dark"
+                      data-bs-theme-value="dark" aria-pressed="false">
                       <svg class="bi me-2 opacity-50 theme-icon" width=".7em" height=".7em">
                         <use href="#moon-stars-fill"></use>
                       </svg>
@@ -660,7 +667,6 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
   <!-- \\\\\\\ contact section /////////-->
   <section id="contact" class="contact">
@@ -699,17 +705,19 @@
         <div class="contact__form col-md-12 col-lg-6 pl-3 pr-3 ml-3 mr-3 ">
           <h4 class="pb-3 display-5 poppins-black">Get in touch today, and let's create something
             extraordinary!</h4>
-          <form action="mailto:mhulodjiotsa@gmail.com" method="post" enctype="text/plain" class="row">
-            <div class="col-lg-6 col-md-6 mb-3"><input type="text" name id="inputFirstName" placeholder="First Name"
+          <form id="myForm" action="#" class="row">
+
+            <div class="col-lg-6 col-md-6 mb-3"><input type="text" required name="from_first_name" id="from_first_name"
+                placeholder="First Name" class="form-control shadow form-control-lg"></div>
+            <div class="col-lg-6 col-md-6 mb-3"><input type="text" required name="from_last_name" id="from_last_name"
+                placeholder="Last Name" class="form-control shadow form-control-lg"></div>
+            <div class="mb-3"><input type="email" required name="from-email" id="from_email" placeholder="Your email"
                 class="form-control shadow form-control-lg"></div>
-            <div class="col-lg-6 col-md-6 mb-3"><input type="text" name id="inputLastName" placeholder="Last Name"
-                class="form-control shadow form-control-lg"></div>
-            <div class="mb-3"><input type="email" name id="inputEmail" placeholder="email" Name
-                class="form-control shadow form-control-lg"></div>
-            <div class="mb-3"><textarea name="message" id="message" rows="6" class="form-control shadow form-control-lg"
+            <div class="mb-3"><textarea name="message" required id="message" rows="6"
+                class="form-control shadow form-control-lg"
                 placeholder="Let's create something extraordinary! "></textarea></div>
             <div class="text-center d-grid mt-1">
-              <button type="submit" class="btn btn-secondary  pt-3 pb-3">
+              <button type="submit" class="rounded-pill btn-rounded btn-rounded-secondary-light  pt-3 pb-3">
                 submit
                 <i class="fas fa-paper-plane"></i>
               </button>
@@ -815,7 +823,8 @@
   <!-- fontawesome -->
   <script src="./assets/js/all.min.js"></script>
   <!-- index.js -->
-   <script src="./assets/js/index.js"></script>
+  <script src="./assets/js/index.js"></script>
+  <script src="./assets/js/emailjs.js"></script>
 </body>
 
 </html>

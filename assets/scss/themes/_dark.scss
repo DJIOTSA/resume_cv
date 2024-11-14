@@ -1,6 +1,10 @@
 // dark theme
 .dark {
   @include default-dark-theme;
+  .alert{
+    background-color: $dark-primary-color;
+    color: $dark-secondary-color;
+  }
 
   .text-primary {
     color: $dark-primary-color !important;

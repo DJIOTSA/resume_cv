@@ -2,6 +2,11 @@
 .light {
   @include default-light-theme;
 
+  .alert{
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
+
   .text-primary {
     color: $primary-color !important;
   }
