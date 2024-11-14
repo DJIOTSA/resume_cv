@@ -9,6 +9,7 @@ window.onload = function () {
     emailjs.sendForm(serviceID, templateID, this).then(
       () => {
         showAlert("Message sent successfully!")
+        this.querySelector('textarea').value="";
       },
       (err) => {
         console.log(JSON.stringify(err));
