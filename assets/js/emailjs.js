@@ -4,7 +4,7 @@ window.onload = function () {
     event.preventDefault();
 
     const serviceID = "default_service";
-    const templateID = "template_tylxebs";
+    const templateID = "template_9ops7ll";
 
     emailjs.sendForm(serviceID, templateID, this).then(
       () => {
