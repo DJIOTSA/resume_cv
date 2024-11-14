@@ -37,29 +37,3 @@ function showAlert(message, isError = false) {
     }, 600); // Match the transition duration
   }, 5000);
 }
-
-// window.onload = () => {
-//   // emailjs
-//   $("#myForm").on("submit", function (event) {
-//     event.preventDefault(); // prevent reload
-
-//     var formData = new FormData(this);
-//     formData.append("service_id", "service_elgiazj");
-//     formData.append("template_id", "template_h4fq7r7");
-//     formData.append("user_id", "HcQt66_RE4ZQ4nSA1");
-
-//     $.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
-//       type: "POST",
-//       data: formData,
-//       contentType: false, // auto-detection
-//       processData: false, // no need to parse formData to string
-//     })
-//       .done(function () {
-//         alert("Your mail is sent!");
-//         this.querySelector("textarea").value = "";
-//       })
-//       .fail(function (error) {
-//         alert("Oops... " + JSON.stringify(error));
-//       });
-//   });
-// };
